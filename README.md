@@ -2,8 +2,6 @@
 
 > A proof-of-concept demonstrating real-time HL7 ADT event streaming via **Apache Kafka**, with automated translation to **FHIR R4** resources and live posting to the public **HAPI FHIR** server.
 
-![Architecture](docs/architecture.png)
-
 ---
 
 ## 🏗️ Architecture
@@ -62,11 +60,8 @@ adt-fhir-kafka/
 │   ├── fhir_mapper.py          # HL7 segment → FHIR R4 resource mapper
 │   └── fhir_client.py          # HTTP client for HAPI FHIR server
 │
-├── dashboard/
-│   └── index.html              # Live stream visualization dashboard
-│
-└── docs/
-    └── architecture.png        # Architecture diagram
+└── dashboard/
+    └── index.html              # Live stream visualization dashboard
 ```
 
 ---
